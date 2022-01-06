@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consuming API</title>
+  <script src="./main.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary-color: #545883;
+      --primary-color-alt: #3a3c57;
+    }
+    body {
+      font-family: "Source Sans Pro", sans-serif;
+      color: #222;
+      margin: 0;
+      background: rgb(224, 229, 238);
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      width: min(90%, 40rem);
+      align-items: center;
+      margin-inline: auto;
+    }
+
+    table, th, td {
+      border: 2px solid var(--primary-color);
+      border-collapse: collapse;
+      color: var(--primary-color);
+    }
+
+    th {
+      padding: .5rem 4rem;
+    }
+
+    td {
+      padding: .5rem;
+      color: var(--primary-color-alt);
+    }
+
+  </style>
+</head>
+<body>
+  <main class="main">
+    <h1 class="title">Users from API</h1>
+    <div class="users">
+      <table class="users-table">
+        <thead>
+          <th>Users</th>
+          <th>ID</th>
+        </thead>
+        
+        <tbody class="table-body">
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

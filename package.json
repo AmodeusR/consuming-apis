@@ -1,0 +1,26 @@
+{
+  "name": "consuming-apis",
+  "version": "1.0.0",
+  "description": "Aula sobre criação, interação e consumo de APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmodeusR/consuming-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmodeusR/consuming-apis/issues"
+  },
+  "homepage": "https://github.com/AmodeusR/consuming-apis#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
